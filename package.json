@@ -1,0 +1,22 @@
+{
+  "name": "projecttodo-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serverless offline",
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "@middy/core": "^4.0.0",
+    "@middy/http-cors": "^4.0.0",
+    "@middy/http-error-handler": "^4.0.0",
+    "aws-sdk": "^2.1488.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "serverless": "^4.25.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^14.4.0",
+    "serverless-reqvalidator-plugin": "1.0.1"
+  }
+}
